@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1510634047060-93a4747e85c4?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.com/photo-1581745841536-c10790870219?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.373);
+    border-radius: 5px;
+    max-width: 80%;
+    margin: auto;
+}
+h1{
+    font-size: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+h2{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+
+}
+p{
+    font-size: 20px;
+    margin-top: 40px;
+    padding-bottom: 60px;
+    color: white;
+    font-weight: bold;
+
+}
+button{
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn{
+    background-color: rgb(73, 7, 115);
+    margin-right: 30px;
+}
+
+#save-btn{
+    background-color: rgb(6, 93, 6);
+}
